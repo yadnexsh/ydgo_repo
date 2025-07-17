@@ -16,7 +16,6 @@ To understand and use basic arithmetic operations in Python.
 To practice taking user input and converting it to appropriate data types.
 To learn basic output formatting in Python.
 """
-
 #----------------------
 
 # defining
@@ -46,4 +45,6 @@ print("Product >", multi)
 print("Quotient >", quote)
 
 #--------------------
+
+
 
