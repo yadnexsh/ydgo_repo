@@ -20,3 +20,25 @@ Use different string methods to change the case of the text.
 Use string slicing to reverse a string.
 Print the manipulated strings to the console.
 """
+
+
+#----------------------
+
+# defining
+
+div = "---"
+
+# print(div * 20)
+
+#-------------------
+
+insert = input("Enter String >")
+
+print(insert.upper())
+print(insert.lower())
+
+print(insert.title())
+
+
+
+# Print the string in reverse order by slicing the string with [::-1].  # what is this

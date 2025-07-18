@@ -26,3 +26,28 @@ The strings are not anagrams.
 """
 
 
+#----------------------
+
+# defining
+
+div = "---"
+
+# print(div * 20)
+
+#-------------------
+
+# in1 = input("Add Input_1")
+# in2 = input("Add Input_2")
+
+
+a = "text"
+b = "xett"
+
+if a != b :
+    print("True")
+
+
+
+
+
+# idk how to use sort

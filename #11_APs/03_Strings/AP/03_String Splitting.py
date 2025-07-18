@@ -18,3 +18,20 @@ Enter a sentence: The quick brown fox jumps over the lazy dog
 ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 
 """
+
+
+#----------------------
+
+# defining
+
+div = "---"
+
+# print(div * 20)
+
+#-------------------
+
+a =  input("Value >")
+
+final = a.split(" ")
+
+print(final)
