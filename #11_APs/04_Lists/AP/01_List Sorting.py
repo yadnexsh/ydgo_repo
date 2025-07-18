@@ -16,3 +16,25 @@ Define and manipulate lists in Python.
 Use sorting functions to arrange list elements in a specific order.
 Understand the use of built-in list methods.
 """
+
+
+#----------------------
+
+# defining
+
+div = "---"
+#-------------------
+
+a = [4 , 2, 0, 8]
+
+
+ascending = sorted(a)
+
+descnding = sorted(a)[::-1]
+
+
+print(ascending)
+print(descnding)
+
+
+# not sure how it actually works - google

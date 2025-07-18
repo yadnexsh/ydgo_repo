@@ -28,3 +28,28 @@ Full Shot Tracker:
 
 Artist for shot_005: Unassigned
 """
+
+
+
+tracker ={
+    "shot_1" : {"artist":"alice", "no": 30},
+    "shot_2" : {"artist":"alice", "no": 30},
+    "shot_3" : {"artist":"alice", "no": 30}
+}
+
+
+
+tracker["shot_3"]["no"] = 40
+tracker["shot_3"]["artist"] = "sam"
+# tracker["shot_4"][]
+
+
+new_tracker =  tracker.update({"shot_4" : {"artist":"kiwi", "no": 30}})
+
+print(tracker)
+
+
+if "shot_5" in tracker:
+    print(tracker["shot_5"]["artist"])
+else :
+    print("Artist for shot_005: Unassigned")

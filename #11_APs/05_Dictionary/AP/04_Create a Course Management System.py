@@ -31,3 +31,24 @@ Full Course Data:
 
 BIO150: Course not available
 """
+
+course_data = {
+    "CS101" : {"instructor":"A", "credits": 30, "enrolled_students" : ["A", "B", "C"]},
+    "MATH123" : {"instructor":"B", "credits": 40, "enrolled_students" : ["A", "B", "C"]}
+}
+
+print(course_data)
+
+course_data["CS101"]["enrolled_students"].append("Eve")
+
+# repractice append
+
+course_data["MATH123"]["credits"] = 50
+# course_data["PHY202"][{"instructor":"B", "credits": 40, "enrolled_students" : ["A", "B", "C"]}] - how to add new dict in dict , crosscheck
+
+if "BIO150" in course_data :
+  print("yes")
+else :
+  print("Course not available")
+
+print(course_data)

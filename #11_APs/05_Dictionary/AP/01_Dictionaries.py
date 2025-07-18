@@ -13,3 +13,20 @@ Access and print specific values from the dictionary using their keys.
 Understanding dictionaries and their syntax in Python.
 Practicing dictionary manipulation including adding, updating, and accessing key-value pairs.
 """
+
+
+info = {"name":"Alice",
+     "age":30,
+     "city":"Mum",
+     "Country":"Ind"}
+
+print(info)
+
+
+info.update({"key" : "value"})
+
+print(info)
+
+
+print(info["age"])
+# print(info[0])

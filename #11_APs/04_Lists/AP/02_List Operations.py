@@ -18,3 +18,22 @@ Looping through lists
 Using built-in functions like max(), min(), and sum()
 Reversing a list
 """
+
+
+
+a = [ 1, 2, 3, 4, 5, 6, 7]
+
+print(a)
+
+max = max(a)
+min = min(a)
+sum = sum(a)
+
+reverse = a[::-1]
+
+print(max, min, sum)
+
+print(reverse)
+
+
+# max min sum is not given in pdf , but how do we understand the synatx for it such as why its not a.max() and why max.(a) > is it cause its fun ? then what others are?

@@ -16,3 +16,9 @@ Use set operations to remove duplicates from a list.
 Iterate through a list and maintain order while removing duplicates.
 Print the final list.
 """
+
+input_str = input("Enter integers separated by spaces: ")
+
+list = input_str.split(" ")
+
+# how to understand what are the dups are ?

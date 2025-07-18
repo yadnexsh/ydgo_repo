@@ -27,3 +27,30 @@ Student John has scored 87 in Mathematics.
 john’s performance in Mathematics is satisfactory.
 ****************************************
 """
+#----------------------
+
+# defining
+
+div = "---"
+
+# print(div * 20)
+#-------------------
+
+
+in_name = input("Name >")
+in_subject = input("Subject >")
+in_score = (input("Score >"))
+
+print(div * 40 )
+
+name = in_name.strip().lower()
+subject = in_subject.strip().title()
+score = in_score.strip()
+
+print("Student {} has scored {} in {}.".format(name, score, subject))
+
+print(f"{name}'s performance in {subject} is satisfactory.")
+
+print(div * 40 )
+
+#-------------------
